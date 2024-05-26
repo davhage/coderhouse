@@ -53,6 +53,7 @@ nav.space {
     height: 4rem;
     margin-left: 3rem;
     width: 4rem;
+    border-radius: 50%;
 }
 
 .data, ul, .nav-links {
@@ -63,29 +64,6 @@ nav.space {
 
 li {
     list-style-type: none;
-}
-
-/* Main */
-main {
-    justify-content: space-evenly;
-    height: 85%;
-    margin: 0 auto;
-    max-width: 65rem;
-}
-
-h1 {
-    font-size: 6rem;
-    font-weight: 500;
-}
-
-.position {
-    font-size: 3.4rem;
-    font-weight: 100;
-}
-
-img {
-    border-radius: 50%;
-    width: 28rem;
 }
 
 a {
@@ -100,33 +78,9 @@ a:hover {
     font-weight: bold;
     text-decoration: underline;
 }
-
-.resume {
-    font-size: 1.8rem;
-    text-align: justify;
-}
-
+ 
 /* Clase para cambiar el fondo con función de JavaScript */
 .dark-mode {
     background-color: var(--isabelline);
     color: var(--smokyBlakc);
-}
-
-
-/* Media queries */
-@media only screen and (max-width: 650px){
-    main {
-        width: 40rem;
-    }
-
-    h1{
-        font-size: 3rem;
-    }
- 
-    .position {
-        font-size: 1.5rem;
-    }
-    img {
-        width: 20rem;
-    }
 }

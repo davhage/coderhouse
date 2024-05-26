@@ -8,10 +8,10 @@ form {
     display: flex;
     justify-content: center;
 }
-
+ 
 fieldset {
     background-color: var(--munsell);
-    border-color: var(--bittersweet);
+    border: none;
     border-radius: 5px;
     color: var(--isabelline);
     height: 30rem;

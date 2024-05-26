@@ -5,7 +5,7 @@ main {
     margin: 0 auto;
     max-width: 65rem;
 }
-
+ 
 h1 {
     font-size: 6rem;
     font-weight: 500;
@@ -38,13 +38,6 @@ a:hover {
     font-size: 1.8rem;
     text-align: justify;
 }
-
-/* Clase para cambiar el fondo con función de JavaScript */
-.dark-mode {
-    background-color: var(--isabelline);
-    color: var(--smokyBlakc);
-}
-
 
 /* Media queries */
 @media only screen and (max-width: 650px){
