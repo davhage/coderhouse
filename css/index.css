@@ -43,16 +43,25 @@ a:hover {
 @media only screen and (max-width: 650px){
     main {
         width: 40rem;
+        height: 100%;
+    }
+
+    .data {
+        flex-direction: column;
     }
 
     h1{
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     .position {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     img {
-        width: 20rem;
+        width: 25rem;
+    }
+
+    p {
+        font-size: 1.4rem;
     }
 }
