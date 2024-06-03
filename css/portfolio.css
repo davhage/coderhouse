@@ -25,45 +25,8 @@ html {
 }
 
 body {
-    background-color: var(--smokyBlakc);
-    color: var(--isabelline);
-    font-family: "Montserrat", sans-serif;
-    height: 100vh;
-    width: 100vw;
-}
-
-body {
     display: flex;
     flex-direction: column;
-}
-
-/* Nav bar */
-header {
-    height: 7%;
-}
-
-nav.space {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100%;
-}
-
-.logo {
-    height: 4rem;
-    margin-left: 3rem;
-    width: 4rem;
-    border-radius: 50%;
-}
-
-ul, .nav-links {
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-}
-
-li {
-    list-style-type: none;
 }
 
 /* Main */
